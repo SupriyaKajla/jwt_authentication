@@ -1,0 +1,17 @@
+
+<div class="row mt-5">
+  <div class="row gx-15">
+  <div class="col-md-6 mb-3" *ngFor="let event of events">
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">{{event.name}}</h5>
+        <p class="card-text">{{event.Description}}</p>
+        <a href="#" class="btn btn-primary">Online | MS Teams</a>
+      </div>
+      <div class="card-footer text-muted">
+        {{event.date}}
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
